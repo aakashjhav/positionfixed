@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ion-icon{
+
+}
+
+.title , nav{
+    
+    display:flex;
+    height: 76px;
+    border-bottom: 2px solid black;
+    align-items: center; 
+
+}
+.title{
+    position:sticky;
+    top:0;
+}
+nav{
+    position:sticky;
+    top:79px;
+    background-color: aquamarine;
+}
+nav{
+    height: auto;
+}
+button{
+    margin: 3px 10px
+}
+.logo img{
+    
+    height: 60%;
+
+    
+}
+
+.title img{
+       height: 60%;
+    
+    
+}
+.title ion-icon{
+    font-size: 210%;
+    float: right;
+    right: 10px;
+    
+          
+}
+.username{
+   float: right;
+  
+   
+}
+.menu{
+   
+    left: 94%;
+     font-size: 180%;
+}
+
+.report-grid{
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 80vh;
+    margin-top: 000px;
+ 
+}
+.report{
+    
+    border: 2px solid black;
+}
